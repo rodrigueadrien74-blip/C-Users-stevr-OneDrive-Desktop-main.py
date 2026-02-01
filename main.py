@@ -1,7 +1,7 @@
 from ursina import *
 from ursina.prefabs.platformer_controller_2d import PlatformerController2d
 
-app = Ursina()
+app = Ursina(icon='ICON.PNG', title='Jumping Cube')
 
 Sky()
 cube1 = PlatformerController2d(scale=1)
